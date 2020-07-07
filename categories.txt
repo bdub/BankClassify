@@ -1,19 +1,34 @@
 Income
+Expense
+Expense (GST Free)
+Personal
 Bill - General
 Bill - Utilities
-Bill - Communications
+Bill - Phone & Internet
+Subscriptions & Software Licences
+Travel - Flights
+Travel - Taxis
 Travel - General
-Travel - Car
-Travel - Petrol
-Supermarket
-Cash Out
-Eating Out
-House
-Books
-Craft
-Charity Shop       
-Presents
-Toiletries
+Office Supplies
+Office IT
+Asset Purchase
+Office Storage
+Meeting Supplies
+Marketing
+Professional Development
+Personal - Groceries
+Personal - Cash Out
+Personal - Eating Out
+Personal - House
+Personal - Alcohol
+Personal - Health & Wellbeing
+Personal - Family
+Personal - Pets
+Personal - General
 Mortgage
-Paypal
-Unclassified
+Donation
+Account Transfer (In)
+Fees
+
+Meeting
+Personal - Coffee

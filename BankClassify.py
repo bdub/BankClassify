@@ -44,6 +44,9 @@ class BankClassify():
         elif bank == "mint":
             print("adding Mint data!")
             self.new_data = self._read_mint_csv(filename)
+        elif bank == "stgeorge":
+            print("adding St George data")
+            self.new_data = self._read_stgeorge_csv(filename)
 
         self._ask_with_guess(self.new_data)
 
@@ -242,6 +245,50 @@ class BankClassify():
 
         return df
 
+    def _read_stgeorge_csv(self, filename):
+        """Read a file in the CSV format that St George Bank (AU) provides downloads in.
+
+        Returns a pd.DataFrame with columns of 'date' 0 , 'desc'  1 and 'amount' 5 ."""
+
+        df = pd.read_csv(filename, skiprows=0)
+
+        """Rename columns """
+        #df.columns = ['date', 'desc', 'amount']
+        df.rename(
+            columns={
+                "Date" : 'date',
+                "Description" : 'desc',
+                "Debit": 'debit',
+                "Credit": 'credit'
+            },
+            inplace=True
+        )
+        
+        df['credit'].fillna(0,inplace=True)
+        df['debit'].fillna(0,inplace=True)
+
+        df = df.astype({"desc": str, "date": str, "debit": float, "credit": float})
+        
+        df['amount'] = df['credit'] - df['debit']
+
+        # if its income we still want it in the amount col!
+        # manually correct each using 2 cols to create 1 col with either + or - figure
+        # St George outputs 2 cols, credit and debit, we want 1 col representing a +- figure
+        #for index, row in df.iterrows():
+        #    #if (row['amount'] > 0):
+        #    #    # it's a negative amount because this is a spend
+        #    #    df.at[index, 'amount'] = -row['amount']
+        #    #elif (row['creditAmount'] > 0):
+        #    #    df.at[index, 'amount'] = row['creditAmount']
+        #    row['amount'] = row['credit'] - row['debit']
+        #    #print(row)
+
+        # cast types to columns for math 
+        #df = df.astype({"desc": str, "date": str, "amount": float})
+
+        print(df)
+
+        return df
     def _read_lloyds_csv(self, filename):
         """Read a file in the CSV format that Lloyds Bank provides downloads in.
 
