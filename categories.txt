@@ -1,34 +1,56 @@
-Income
+ATO Payment
 Expense
-Expense (GST Free)
 Personal
-Bill - General
-Bill - Utilities
-Bill - Phone & Internet
-Subscriptions & Software Licences
-Travel - Flights
-Travel - Taxis
-Travel - General
-Office Supplies
-Office IT
-Asset Purchase
-Office Storage
-Meeting Supplies
-Marketing
-Professional Development
-Personal - Groceries
-Personal - Cash Out
-Personal - Eating Out
-Personal - House
-Personal - Alcohol
-Personal - Health & Wellbeing
-Personal - Family
-Personal - Pets
-Personal - General
+Personal - Skye
+Income
+Income - Greenups
+Insurance
 Mortgage
-Donation
+NAN
 Account Transfer (In)
+Account Transfer (Out)
 Fees
-
-Meeting
+Account Transfer - Virgin Money
+Asset Purchase
+Donation
+Expense - Admin Services
+Expense - Cleaners
+Expense - Credit Card Repayment (Virgin Money)
+Expense - General
+Expense - General (GST Free)
+Expense - Greenups
+Expense - Marketing
+Expense - Meeting
+Expense - Office IT
+Expense - Office Supplies
+Expense - Phone & Internet
+Expense - Professional Development
+Expense - Storage
+Expense - Subscriptions & Software Licences
+Expense - Travel
+Expense - Travel - Flights
+Expense - Travel - Parking
+Expense - Travel - Taxis
+Expense - Utilities
+Expense - Working Lunch
+Personal - Alcohol
+Personal - Cash Out
+Personal - Childcare
 Personal - Coffee
+Personal - Drinking Out
+Personal - Eating Out
+Personal - Entertainment
+Personal - Family
+Personal - General
+Personal - Groceries
+Personal - Health & Wellbeing
+Personal - House
+Personal - Jane
+Personal - Loan Repay John & Wendy
+Personal - Lunch
+Personal - Pets
+UNKNOWN
+Wortley St
+
+Personal - Reuben
+Expense - Rates

@@ -1,0 +1,50 @@
+ 0  ATO Payment
+ 1  Account Transfer (In)
+ 2  Account Transfer (Out)
+ 3  Asset Purchase
+ 4  Donation
+ 5  Expense
+ 6  Expense - Admin Services
+ 7  Expense - Cleaners
+ 8  Expense - Credit Card Repayment (Virgin Money)
+ 9  Expense - General
+10  Expense - General (GST Free)
+11  Expense - Greenups
+12  Expense - Marketing
+13  Expense - Meeting
+14  Expense - Office IT
+15  Expense - Office Supplies
+16  Expense - Phone & Internet
+17  Expense - Professional Development
+18  Expense - Storage
+19  Expense - Subscriptions & Software Licences
+20  Expense - Travel
+21  Expense - Travel - Flights
+22  Expense - Travel - Taxis
+23  Expense - Utilities
+24  Expense - Working Lunch
+25  Fees
+26  Income
+27  Mortgage
+28  Personal
+29  Personal - Alcohol
+30  Personal - Cash Out
+31  Personal - Coffee
+32  Personal - Drinking Out
+33  Personal - Eating Out
+34  Personal - Entertainment
+35  Personal - Family
+36  Personal - General
+37  Personal - Groceries
+38  Personal - Health & Wellbeing
+39  Personal - House
+40  Personal - Jane
+41  Personal - Loan Repay John & Wendy
+42  Personal - Lunch
+43  Personal - Pets
+44  Personal - Skye
+45  Wortley St
+46
+47  Income - Greenups
+48  Personal - Childcare
+49  
