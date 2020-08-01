@@ -28,8 +28,8 @@ bc = BankClassify(data="ME_AllData.csv")
 #bc.add_data("data/ME_2020_3-2-1.csv", "mebank")
 #bc.add_data("data/ME_2019_12-11-10.csv", "mebank") 
 #bc.add_data("data/ME_2019_9-8-7.csv", "mebank")
-bc.add_data("data/ME_2019_6-5-4.csv", "mebank")
-#bc.add_data("data/ME_2019_3-2-1.csv", "mebank") # segments
+#bc.add_data("data/ME_2019_6-5-4.csv", "mebank")
+bc.add_data("data/ME_2019_3-2-1.csv", "mebank") # segments
 #bc.add_data("data/ME_2018_12-11-10.csv", "mebank") # segments
 #bc.add_data("data/ME_2018_9-8-7.csv", "mebank") # segments
 #bc.add_data("data/ME_2018_6-5-4.csv", "mebank") # REDOING 
